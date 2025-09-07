@@ -1,12 +1,15 @@
 name: Deploy Vite to GitHub Pages
+
 on:
   push:
     branches: [ "main" ]
   workflow_dispatch:
+
 permissions:
   contents: read
   pages: write
   id-token: write
+
 concurrency:
   group: "pages"
   cancel-in-progress: true
@@ -16,23 +19,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'npm'
 
-      # fix: jangan pakai npm ci saat tidak ada package-lock.json
+      # gunakan npm install (tanpa package-lock.json, npm ci akan gagal)
       - name: Install deps
         run: npm install
 
       - name: Build
         run: npm run build
 
-      # opsional tapi bagus untuk SPA (routing fallback)
+      # SPA fallback (opsional tapi disarankan)
       - name: SPA 404 fallback
         run: cp dist/index.html dist/404.html
 
-      # recommended untuk Pages v4
+      # konfigurasi Pages (disarankan untuk v4)
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
