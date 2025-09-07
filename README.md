@@ -31,3 +31,5 @@ Web app untuk pengunjung yang ingin mengisi game **PS3 & PS4** di **URBAN PlaySt
    npm run build
    npm run preview
    ```
+
+   Test Build
