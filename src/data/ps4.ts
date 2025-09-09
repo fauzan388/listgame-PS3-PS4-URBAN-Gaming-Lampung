@@ -41,8 +41,7 @@ export const ps4Games: Game[] = [
     ],
   youtubeQuery: 'A Way Out PS4 gameplay',
   gameplayYoutubeUrl: 'https://www.youtube.com/watch?v=tcyaQCENX8I',
-}
-,
+},
 {
   id: 'ps4-alienation',
   platform: 'PS4',
@@ -61,8 +60,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Alienation PS4 gameplay',
   gameplayYoutubeUrl: 'https://www.youtube.com/watch?v=DX1RFO0Aa5s',
-}
-,
+},
 {
   id: 'ps4-ac-mirage',
   platform: 'PS4',
@@ -81,14 +79,13 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: "Assassin's Creed Mirage PS4 gameplay",
   gameplayYoutubeUrl: 'https://www.youtube.com/watch?v=EdO9bh3ULtY',
-}
-,
+},
 {
   id: 'ps4-ac-odyssey',
   platform: 'PS4',
   name: "Assassin's Creed Odyssey",
   description: 'RPG aksi dunia terbuka berlatar Yunani Kuno; pilihan protagonis Alexios/Kassandra.',
-  size: '≈45 GB (base, tanpa update)',
+  size: '≈45 GB',
   build: '—',
   year: 2018,
   players: '1',
@@ -101,8 +98,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: "Assassin's Creed Odyssey PS4 gameplay",
   gameplayYoutubeUrl: 'https://www.youtube.com/watch?v=q7DrknQFp_s',
-}
-,
+},
 {
   id: 'ps4-ac-unity',
   platform: 'PS4',
@@ -121,14 +117,13 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: "Assassin's Creed Unity PS4 gameplay",
   gameplayYoutubeUrl: 'https://www.youtube.com/watch?v=J1HwI-oGnzU',
-}
-,
+},
 {
   id: 'ps4-ac-valhalla',
   platform: 'PS4',
   name: "Assassin's Creed Valhalla Full DLC",
   description: 'Aksi-RPG era Viking; jelajah Norwegia & Inggris. (Entri ini mencantumkan paket DLC lengkap).',
-  size: '≈46 GB (base + update awal, tanpa semua DLC)',
+  size: '≈46 GB',
   build: '—',
   year: 2020,
   players: '1',
@@ -141,8 +136,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: "Assassin's Creed Valhalla PS4 gameplay",
   gameplayYoutubeUrl: 'https://www.youtube.com/watch?v=AHPkpzq-P_M',
-}
-,
+},
 {
   id: 'ps4-atomic-heart',
   platform: 'PS4',
@@ -161,14 +155,13 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Atomic Heart PS4 gameplay',
   gameplayYoutubeUrl: 'https://www.youtube.com/watch?v=Q3WkwSeEMOI',
-}
-,
+},
 {
   id: 'ps4-battlefield1',
   platform: 'PS4',
   name: 'BATTLEFIELD 1',
   description: 'Penembak Perang Dunia I skala besar dengan mode multipemain dan kampanye storyline.',
-  size: '≈79–95 GB (tergantung update/DLC)',
+  size: '≈79–95 GB',
   build: '—',
   year: 2016,
   players: '1',
@@ -181,14 +174,13 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Battlefield 1 PS4 gameplay',
   gameplayYoutubeUrl: 'https://www.youtube.com/watch?v=6BAlhPYNvaI',
-}
-,
+},
 {
   id: 'ps4-bloodborne-complete',
   platform: 'PS4',
   name: 'Bloodborne Complete Edition',
   description: 'Aksi-RPG gotik dari FromSoftware; fokus pada agresi, dodge, dan trik-weapon.',
-  size: '≈25.3–36.5 GB (region/patch)',
+  size: '≈25.3–36.5 GB',
   build: '—',
   year: 2015,
   players: '1',
@@ -201,8 +193,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Bloodborne PS4 gameplay',
   gameplayYoutubeUrl: 'https://www.youtube.com/watch?v=ZCD3hpFfj30',
-}
-,
+},
 {
   id: 'ps4-bully-ps2ver',
   platform: 'PS4',
@@ -221,8 +212,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Bully PS2 PS4 gameplay',
   gameplayYoutubeUrl: 'https://www.youtube.com/watch?v=xjbuX5YG_Wc',
-}
-,
+},
 {
   id: 'ps4-ctr-full-dlc',
   platform: 'PS4',
@@ -241,28 +231,26 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Crash Team Racing PS4 gameplay',
   gameplayYoutubeUrl: 'https://youtu.be/dsxNVVUKStU?si=0VjRzcegtuv5O58B',
-}
-,
+},
 {
   id: 'ps4-days-gone',
   platform: 'PS4',
   name: 'Days Gone',
   description: 'Open-world zombie action-adventure di Oregon pasca-apokaliptik, fokus survival dan motor.',
-  size: '≈38.7 GB (setelah patch 1.61)',
+  size: '≈38.7 GB',
   build: 'v1.61',
   year: 2019,
   players: '1',
   price: computePrice('Days Gone', 38.7),
   cover: 'https://dlpsgame.com/wp-content/uploads/2024/12/24.jpg',
   screenshots: [
-    'IGN SCREENSHOT 1 URL HERE',
-    'IGN SCREENSHOT 2 URL HERE',
-    'IGN SCREENSHOT 3 URL HERE',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1259420/ss_8d958e566d5315463d099b21eae729d0f462caad.600x338.jpg?t=1750947718',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1259420/ss_4a1a39d5559909424ed36414070477a96c91e92c.600x338.jpg?t=1750947718',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1259420/ss_364f3048399fcb95df5e878c708c94e934cd53d4.600x338.jpg?t=1750947718'
   ],
   youtubeQuery: 'Days Gone PS4 gameplay',
   gameplayYoutubeUrl: 'https://www.youtube-nocookie.com/embed?rel=0&listType=search&list=Days%20Gone%20PS4%20gameplay',
-}
-,
+},
 {
   id: 'ps4-dead-island2',
   platform: 'PS4',
@@ -275,14 +263,13 @@ export const ps4Games: Game[] = [
   price: computePrice('Dead Island 2 Full DLC', 44.7),
   cover: 'https://1.bp.blogspot.com/-uKmcsJwnSf8/ZEPyct-UmuI/AAAAAAAABO4/hOjTOi5xPfk0IOokTgtDfJM0GLtnZZRfgCNcBGAsYHQ/s0/1.jpg',
   screenshots: [
-    'https://images.pushsquare.com/30b9b1b57b423/dead-island-2-ps5-ps4-1.large.jpg',
-    'https://images.pushsquare.com/31a8f7f64c014/dead-island-2-ps5-ps4-3.large.jpg',
-    'https://images.pushsquare.com/55b6de3c9e236/dead-island-2-ps5-ps4-5.large.jpg',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/934700/ss_d0ac6f8e16e69a331d848b879f6a2384f4cd8acd.600x338.jpg?t=1753370237',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/934700/ss_480f620579dbf5514834cea9db59b1ccfb8de8d3.600x338.jpg?t=1753370237',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/934700/ss_e026a2f2800af5cef892b1677f028ee47bc97426.600x338.jpg?t=1753370237'
   ],
   youtubeQuery: 'Dead Island 2 PS4 gameplay',
   gameplayYoutubeUrl: 'https://www.youtube-nocookie.com/embed?rel=0&listType=search&list=Dead%20Island%202%20PS4%20gameplay',
-}
-,
+},
 {
   id: 'ps4-demonslayer',
   platform: 'PS4',
@@ -295,14 +282,13 @@ export const ps4Games: Game[] = [
   price: computePrice('Demon Slayer Kimetsu no Yaiba Full DLC', 23.41),
   cover: 'https://1.bp.blogspot.com/-RgS3Z22o5h8/Zjw2SSoZSTI/AAAAAAAAG00/AG0cc-yfqFM4ahJWgYnLC6stmkHqX-nbQCNcBGAsYHQ/s0/41%2B%2528Copy%2529.jpg',
   screenshots: [
-    'https://images.pushsquare.com/2f29fb08f9a76/demon-slayer-ps5-ps4-1.large.jpg',
-    'https://images.pushsquare.com/7fef2371bcb15/demon-slayer-ps5-ps4-2.large.jpg',
-    'https://images.pushsquare.com/23f2a80dfe196/demon-slayer-ps5-ps4-3.large.jpg',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1490890/ss_c1270311ded5c2268fb0e0ebd66c0c099193fe6f.600x338.jpg?t=1746611144',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1490890/ss_2978c669c1b7d8240e70877b8423db12911dd944.600x338.jpg?t=1746611144',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1490890/ss_3d9cddd140e9e8dc930dd66f08018280c44ce5cb.600x338.jpg?t=1746611144'
   ],
   youtubeQuery: 'Demon Slayer PS4 gameplay',
   gameplayYoutubeUrl: 'https://www.youtube-nocookie.com/embed?rel=0&listType=search&list=Demon%20Slayer%20PS4%20gameplay',
-}
-,
+},
 {
   id: 'ps4-detroit',
   platform: 'PS4',
@@ -315,14 +301,13 @@ export const ps4Games: Game[] = [
   price: computePrice('Detroit Become Human', 43.5),
   cover: 'https://dlpsgame.com/wp-content/uploads/2024/12/18.jpg',
   screenshots: [
-    'https://images.pushsquare.com/screenshots/87269/large.jpg',
-    'https://images.pushsquare.com/screenshots/87272/large.jpg',
-    'https://images.pushsquare.com/screenshots/87274/large.jpg',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1222140/ss_9c900def2b1d9a003b7d3e202ea2a7556a36e081.600x338.jpg?t=1667468479',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1222140/ss_3011c05e404043e3bfed1f6de7fe12ffd58ddc9b.600x338.jpg?t=1667468479',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1222140/ss_b1e2a185bea13cccfc662e1286912bcd6f4ee798.600x338.jpg?t=1667468479'
   ],
   youtubeQuery: 'Detroit Become Human PS4 gameplay',
   gameplayYoutubeUrl: 'https://www.youtube-nocookie.com/embed?rel=0&listType=search&list=Detroit%20Become%20Human%20PS4%20gameplay',
-}
-,
+},
 {
   id: 'ps4-dirt4',
   platform: 'PS4',
@@ -341,8 +326,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'DIRT 4 PS4 gameplay',
   gameplayYoutubeUrl: 'https://www.youtube-nocookie.com/embed?rel=0&listType=search&list=DIRT%204%20PS4%20gameplay',
-}
-,
+},
 {
   id: 'ps4-dirt5',
   platform: 'PS4',
@@ -355,14 +339,13 @@ export const ps4Games: Game[] = [
   price: computePrice('DIRT 5 Full DLC', 46.2),
   cover: 'https://1.bp.blogspot.com/-K-m1suhGMuk/ZkRQgU7AEyI/AAAAAAAAAJc/JMT93bRWhLgUuOH-DgGJHewx4pCmJd4IgCNcBGAsYHQ/s0/40.jpg',
   screenshots: [
-    'https://images.pushsquare.com/52c19122b8e2d/dirt-5-ps5-ps4-1.large.jpg',
-    'https://images.pushsquare.com/19a7ecff431c8/dirt-5-ps5-ps4-3.large.jpg',
-    'https://images.pushsquare.com/eea5d414e1d07/dirt-5-ps5-ps4-4.large.jpg',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1038250/ss_2c729458cc922e01c065b2943ba970b70a308a08.600x338.jpg?t=1663755334',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1038250/ss_0151407d27ed5bea417f7018fd3dabc47c6a9b04.600x338.jpg?t=1663755334',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1038250/ss_d8e10028a96831f3f64eafc706972eb6bef2e434.600x338.jpg?t=1663755334'
   ],
   youtubeQuery: 'DIRT 5 PS4 gameplay',
   gameplayYoutubeUrl: 'https://www.youtube-nocookie.com/embed?rel=0&listType=search&list=DIRT%205%20PS4%20gameplay',
-}
-,
+},
 {
   id: 'ps4-doraemon-sos',
   platform: 'PS4',
@@ -375,14 +358,13 @@ export const ps4Games: Game[] = [
   price: computePrice('DORAEMON STORY OF SEASONS', 0.75),
   cover: 'https://1.bp.blogspot.com/-4_C4idLB_0g/ZkRKNYiMtWI/AAAAAAAAAEU/9fHB6QM78UcMU5x98PraCcJIoYlcL4mEACNcBGAsYHQ/s0/17.jpg',
   screenshots: [
-    'https://images.pushsquare.com/5c55f89a0df65/doraemon-story-of-seasons-ps4-1.large.jpg',
-    'https://images.pushsquare.com/23c8a0fd8d3a9/doraemon-story-of-seasons-ps4-2.large.jpg',
-    'https://images.pushsquare.com/61ccdfb7a5a87/doraemon-story-of-seasons-ps4-3.large.jpg',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/965230/ss_c6c598c4ee381645e9b419996197adfef8566596.600x338.jpg?t=1750782371',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/965230/ss_967e0bc2a09178380693885be2dfc99763c141ae.600x338.jpg?t=1750782371',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/965230/ss_028d542a24c76c1b6102f0a73ae099b238539d97.600x338.jpg?t=1750782371'
   ],
   youtubeQuery: 'Doraemon Story of Seasons PS4 gameplay',
   gameplayYoutubeUrl: 'https://www.youtube-nocookie.com/embed?rel=0&listType=search&list=Doraemon%20Story%20of%20Seasons%20PS4%20gameplay',
-}
-,
+},
 {
   id: 'ps4-dbfz',
   platform: 'PS4',
@@ -395,14 +377,13 @@ export const ps4Games: Game[] = [
   price: computePrice('Dragon Ball Fighter Z Full DLC', 6.24),
   cover: 'https://4.bp.blogspot.com/--6A5SAC71sA/X0aFd63LogI/AAAAAAAAGqo/RJdzgLL3kBcEhTeJNtbby6nqQlm7HlnqQCLcBGAsYHQ/s1600/9.jpg',
   screenshots: [
-    'https://images.pushsquare.com/screenshots/78087/large.jpg',
-    'https://images.pushsquare.com/screenshots/78089/large.jpg',
-    'https://images.pushsquare.com/screenshots/78091/large.jpg',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/678950/ss_1702e9bc7ba4ce2dce2555c8d63612aafb5c757a.600x338.jpg?t=1733508969',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/678950/ss_3f18dbe6561ea68c5acb055e3eaa97f480022c24.600x338.jpg?t=1733508969',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/678950/ss_bcced8fb8be5b0ba2ec2495ae73c6827ccd611e8.600x338.jpg?t=1733508969'
   ],
   youtubeQuery: 'Dragon Ball FighterZ PS4 gameplay',
   gameplayYoutubeUrl: 'https://www.youtube-nocookie.com/embed?rel=0&listType=search&list=Dragon%20Ball%20FighterZ%20PS4%20gameplay',
-}
-,
+},
 {
   id: 'ps4-dw9',
   platform: 'PS4',
@@ -415,14 +396,13 @@ export const ps4Games: Game[] = [
   price: computePrice('Dynasty Warrior 9', 45.0),
   cover: 'https://1.bp.blogspot.com/-GJSXtYKZREo/Wx4lKYN5SqI/AAAAAAAAMm4/KdSbRxO6Fe4EPXCo58FgiOlxe9BXJrPXgCLcBGAs/s1600/20.jpg',
   screenshots: [
-    'https://images.pushsquare.com/screenshots/77378/large.jpg',
-    'https://images.pushsquare.com/screenshots/77380/large.jpg',
-    'https://images.pushsquare.com/screenshots/77382/large.jpg',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/730310/ss_6a9749773b19bfc532f8a716004f3d333fb4b868.600x338.jpg?t=1748480390',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/730310/ss_bc3f18711562cbdb594526f7b1ecfad88b8fa838.600x338.jpg?t=1748480390',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/730310/ss_1071b4f997bb7ddd97283fc3dc05ec145f08c11c.600x338.jpg?t=1748480390'
   ],
   youtubeQuery: 'Dynasty Warriors 9 PS4 gameplay',
   gameplayYoutubeUrl: 'https://www.youtube-nocookie.com/embed?rel=0&listType=search&list=Dynasty%20Warriors%209%20PS4%20gameplay',
-}
-,
+},
 {
   id: 'ps4-eafc25',
   platform: 'PS4',
@@ -435,25 +415,24 @@ export const ps4Games: Game[] = [
   price: computePrice('EA FC 25', 41.0),
   cover: 'https://dlpsgame.com/wp-content/uploads/2024/09/1-21.jpg',
   screenshots: [
-    'https://images.pushsquare.com/2a1bcb7bb5d79/ea-sports-fc-25-ps5-ps4-1.large.jpg',
-    'https://images.pushsquare.com/f6a1d024a5103/ea-sports-fc-25-ps5-ps4-2.large.jpg',
-    'https://images.pushsquare.com/eb3728cf1e749/ea-sports-fc-25-ps5-ps4-3.large.jpg',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2669320/ss_857b4aaf3c10b2a886d60f029f32b2f86d968311.600x338.jpg?t=1752681627',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2669320/ss_aeeea35bf96fad387b97befd9a5c4b9d8ee2ac1a.600x338.jpg?t=1752681627',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2669320/ss_c8460408705b54e37228cc320a2da1c19e4dc12f.600x338.jpg?t=1752681627'
   ],
   youtubeQuery: 'EA FC 25 PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-pes2026-monster',
   platform: 'PS4',
-  name: 'e-football PES 2026 Monster PatchSummer',
+  name: 'e-football PES 2026 Monster Patch Summer',
   description: 'Mod community Monster Patch untuk eFootball/PES 2026, update klub & kits Summer.',
-  size: '≈40 GB (mod pack)',
+  size: '≈60 GB',
   build: '—',
   year: 2026,
   players: '1-4',
   price: computePrice('e-football PES 2026 Monster PatchSummer', 40.0),
-  cover: 'https://upload.wikimedia.org/wikipedia/en/4/4f/Efootball_2022_cover.jpg',
+  cover: 'https://1.bp.blogspot.com/--rTCsMki-_A/ZkRDApLxJDI/AAAAAAAAAA8/qFuDKy_35WIwo5apIerg48Ql4e8rYB0ogCNcBGAsYHQ/s0/2.jpg',
   screenshots: [
     'https://i.ytimg.com/vi/tBD9Qq7uW-o/maxresdefault.jpg',
     'https://i.ytimg.com/vi/fx8cDThIyzA/maxresdefault.jpg',
@@ -461,8 +440,26 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'PES 2026 Monster Patch PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
+{
+  id: 'ps4-pes2026-bitbox',
+  platform: 'PS4',
+  name: 'e-football PES 2026 Bitbox Patch Summer',
+  description: 'Mod community Monster Patch untuk eFootball/PES 2026, update klub & kits Summer.',
+  size: '≈60 GB',
+  build: '—',
+  year: 2026,
+  players: '1-4',
+  price: computePrice('e-football PES 2026 Monster PatchSummer', 40.0),
+  cover: 'https://1.bp.blogspot.com/--rTCsMki-_A/ZkRDApLxJDI/AAAAAAAAAA8/qFuDKy_35WIwo5apIerg48Ql4e8rYB0ogCNcBGAsYHQ/s0/2.jpg',
+  screenshots: [
+    'https://i.ytimg.com/vi/tBD9Qq7uW-o/maxresdefault.jpg',
+    'https://i.ytimg.com/vi/fx8cDThIyzA/maxresdefault.jpg',
+    'https://i.ytimg.com/vi/tcCIhF7vOXc/maxresdefault.jpg',
+  ],
+  youtubeQuery: 'PES 2026 Monster Patch PS4 gameplay',
+  gameplayYoutubeUrl: '',
+},
 {
   id: 'ps4-f124',
   platform: 'PS4',
@@ -475,14 +472,13 @@ export const ps4Games: Game[] = [
   price: computePrice('F1 24', 55.0),
   cover: 'https://1.bp.blogspot.com/-GiG288VMUAY/Zl-54pY2Y8I/AAAAAAAAAyQ/LcSUrNqAPa0pgR6tAV0cRY-TeAvQBA4pwCNcBGAsYHQ/s0/2.jpg',
   screenshots: [
-    'https://images.pushsquare.com/28e3768f57bda/f1-24-ps5-ps4-1.large.jpg',
-    'https://images.pushsquare.com/29f65bde7a311/f1-24-ps5-ps4-2.large.jpg',
-    'https://images.pushsquare.com/aa872f0b7b064/f1-24-ps5-ps4-3.large.jpg',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2488620/fdd8ef6ba735ff768f1c022950773b287794a601/ss_fdd8ef6ba735ff768f1c022950773b287794a601.600x338.jpg?t=1748912330',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2488620/ef2ffcbbe719f986d6f00512c49ebee93588639c/ss_ef2ffcbbe719f986d6f00512c49ebee93588639c.600x338.jpg?t=1748912330',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2488620/26aac4ac6a0da02a01c3ad9cc020666238998ca8/ss_26aac4ac6a0da02a01c3ad9cc020666238998ca8.600x338.jpg?t=1748912330'
   ],
   youtubeQuery: 'F1 24 PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-fatalframe',
   platform: 'PS4',
@@ -495,14 +491,13 @@ export const ps4Games: Game[] = [
   price: computePrice('FATAL FRAME Mask of the Lunar Eclipse', 16.0),
   cover: 'https://1.bp.blogspot.com/-ZJv-TmLU57o/ZEPzdhxRm9I/AAAAAAAABPQ/zTwpy8-kjZIaNEPpOm9AtFBjUvu1QjMbACNcBGAsYHQ/s0/2.jpg',
   screenshots: [
-    'https://images.pushsquare.com/9d8122a8f7158/fatal-frame-ps5-ps4-1.large.jpg',
-    'https://images.pushsquare.com/83cfbde3a98b6/fatal-frame-ps5-ps4-2.large.jpg',
-    'https://images.pushsquare.com/f07b2ffcb2f13/fatal-frame-ps5-ps4-3.large.jpg',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2130460/ss_9e1dd930bf68fb8e904a79cfbe43173572d44ee9.600x338.jpg?t=1749026284',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2130460/ss_4dcd769a708ca35aa7a2b69d37fc4cb841394b86.600x338.jpg?t=1749026284',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2130460/ss_bc68a0b2f8ace60f90a97a60077affb023fa51e2.600x338.jpg?t=1749026284'
   ],
   youtubeQuery: 'Fatal Frame Mask of the Lunar Eclipse PS4 gameplay',
   gameplayYoutubeUrl: 'https://youtu.be/nXtZCbarpUo?si=0HhSAAS5krVZI1SR',
-}
-,
+},
 {
   id: 'ps4-ff-stranger',
   platform: 'PS4',
@@ -521,19 +516,18 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Stranger of Paradise PS4 gameplay',
   gameplayYoutubeUrl: 'https://www.youtube.com/live/HRaRVE7S77M?si=Izi5uouKfZefiyVJ',
-}
-,
+},
 {
   id: 'ps4-ff7-crisis',
   platform: 'PS4',
-  name: 'Final Fantasy VII Crisis Core',
+  name: '/Final Fantasy VII Crisis Core',
   description: 'Remaster RPG aksi Crisis Core: FFVII Reunion, kisah Zack Fair.',
   size: '≈21 GB',
   build: '—',
   year: 2022,
   players: '1',
   price: computePrice('Final Fantasy VII Crisis Core', 21.0),
-  cover: 'https://upload.wikimedia.org/wikipedia/en/4/40/Crisis_Core_-Final_Fantasy_VII-_cover_art.jpg',
+  cover: 'https://1.bp.blogspot.com/-ZAErmbBDI6A/Y98lLFqSLLI/AAAAAAAAIk0/Y1h5fqt51FUP3LAreVebJt3oFDUr4HCiQCNcBGAsYHQ/s0/2.jpg',
   screenshots: [
     'https://images.pushsquare.com/4537c9d02124a/crisis-core-final-fantasy-7-reunion-ps5-ps4-1.large.jpg',
     'https://images.pushsquare.com/bc21c388e7082/crisis-core-final-fantasy-7-reunion-ps5-ps4-2.large.jpg',
@@ -541,8 +535,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Crisis Core Final Fantasy VII Reunion PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-ff7-remake',
   platform: 'PS4',
@@ -561,12 +554,11 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Final Fantasy VII Remake PS4 gameplay',
   gameplayYoutubeUrl: 'https://youtu.be/bHe8rPZzPRE?si=iTbo3qKSzczOQwXJ',
-}
-,
+},
 {
   id: 'ps4-ff12-zodiac',
   platform: 'PS4',
-  name: 'Final Fantasy XII The Zodiac Age',
+  name: '/Final Fantasy XII The Zodiac Age',
   description: 'Remaster FF XII dengan job system Zodiac Age.',
   size: '≈42 GB',
   build: '—',
@@ -581,8 +573,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Final Fantasy XII The Zodiac Age PS4 gameplay',
   gameplayYoutubeUrl: 'https://www.youtube.com/live/fnp0HSNigSM?si=qbKxDCSk67ewKqEt',
-}
-,
+},
 {
   id: 'ps4-ghost-tsushima',
   platform: 'PS4',
@@ -595,14 +586,13 @@ export const ps4Games: Game[] = [
   price: computePrice('Ghost of Tsushima', 40.5),
   cover: 'https://1.bp.blogspot.com/-3cmPn_gQhbg/YbrDSE17w0I/AAAAAAAAMFM/3OL8pVFiNkcxeF25PEcTt4oqpLgBj6kgACNcBGAsYHQ/h300/7.jpg',
   screenshots: [
-    'https://images.pushsquare.com/8ec3a9ecffb09/ghost-of-tsushima-ps4-1.large.jpg',
-    'https://images.pushsquare.com/36cc046f6b179/ghost-of-tsushima-ps4-2.large.jpg',
-    'https://images.pushsquare.com/3c5e1a2b0d0b7/ghost-of-tsushima-ps4-3.large.jpg',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2215430/ss_51eb1a47a41271abb0aa781de576f704d95b601b.600x338.jpg?t=1750948552',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2215430/ss_d60e16422fc1605181e0fedee3e2cfc1e02c750e.600x338.jpg?t=1750948552',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2215430/ss_11409331d57966ef193d66ffcded569d02a4e034.600x338.jpg?t=1750948552'
   ],
   youtubeQuery: 'Ghost of Tsushima PS4 gameplay',
   gameplayYoutubeUrl: 'https://youtu.be/_oOZG5-tqpA?si=DuKCAaMWxK7IY5GJ',
-}
-,
+},
 {
   id: 'ps4-gow1',
   platform: 'PS4',
@@ -615,14 +605,13 @@ export const ps4Games: Game[] = [
   price: computePrice('God Of War 1 Full DLC', 44.5),
   cover: 'https://1.bp.blogspot.com/-bIeiq3rGTwQ/Wwz5qfXRsMI/AAAAAAAALCM/_I2M4KW91NAETR9wUC24I0_C9MeQydc7QCLcBGAs/s1600/13.jpg',
   screenshots: [
-    'https://images.pushsquare.com/3cfdc9d67d885/god-of-war-ps4-1.large.jpg',
-    'https://images.pushsquare.com/1f78d9b6c4d62/god-of-war-ps4-2.large.jpg',
-    'https://images.pushsquare.com/3b94bdb7ccff5/god-of-war-ps4-3.large.jpg',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1593500/ss_6eccc970b5de2943546d93d319be1b5c0618f21b.600x338.jpg?t=1750949016',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1593500/ss_3670ba72c7e3e9c3c3225547ef2c1053504e62b8.600x338.jpg?t=1750949016',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1593500/ss_1351cb512d008f7e47fc50b74197f4f8eb6f3419.600x338.jpg?t=1750949016'
   ],
   youtubeQuery: 'God of War 2018 PS4 gameplay',
   gameplayYoutubeUrl: 'https://youtu.be/_oOZG5-tqpA?si=DuKCAaMWxK7IY5GJ',
-}
-,
+},
 {
   id: 'ps4-gow-ragnarok',
   platform: 'PS4',
@@ -635,14 +624,13 @@ export const ps4Games: Game[] = [
   price: computePrice('God Of War Ragnarok Full DLC Vallhalla', 84.0),
   cover: 'https://1.bp.blogspot.com/-zFl8BVScuhU/Y2xHbSowYCI/AAAAAAAAK3s/5cbtPfoUO9gAoL1u0f8veYL1GIpAUE-RQCNcBGAsYHQ/s0/1.jpg',
   screenshots: [
-    'https://images.pushsquare.com/8a3b9b97c83fa/god-of-war-ragnarok-ps4-1.large.jpg',
-    'https://images.pushsquare.com/ccfda0240a7ed/god-of-war-ragnarok-ps4-2.large.jpg',
-    'https://images.pushsquare.com/36e7abf01c939/god-of-war-ragnarok-ps4-3.large.jpg',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1593500/ss_6eccc970b5de2943546d93d319be1b5c0618f21b.600x338.jpg?t=1750949016',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1593500/ss_3670ba72c7e3e9c3c3225547ef2c1053504e62b8.600x338.jpg?t=1750949016',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1593500/ss_1351cb512d008f7e47fc50b74197f4f8eb6f3419.600x338.jpg?t=1750949016'
   ],
   youtubeQuery: 'God of War Ragnarok PS4 gameplay',
   gameplayYoutubeUrl: 'https://youtu.be/Yoirk4gsZHA?si=7spC4ma5OKwgXxV8',
-}
-,
+},
 {
   id: 'ps4-gta3-def',
   platform: 'PS4',
@@ -661,8 +649,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'GTA 3 Definitive Edition PS4 gameplay',
   gameplayYoutubeUrl: 'https://youtu.be/kaJzjOVll-M?si=P5g1FZR6G14GjsxC',
-}
-,
+},
 {
   id: 'ps4-gta5',
   platform: 'PS4',
@@ -675,14 +662,13 @@ export const ps4Games: Game[] = [
   price: computePrice('GTA 5', 76.0),
   cover: 'https://1.bp.blogspot.com/-0NM5DA2DYBQ/WoVTnacKUGI/AAAAAAAAKvs/26hRnXFxlRUG0xINxT_ZpBsFt2Ry4xSUgCLcBGAs/s1600/21.jpg',
   screenshots: [
-    'https://images.pushsquare.com/4f9c9f79f7d1c/grand-theft-auto-v-ps4-1.large.jpg',
-    'https://images.pushsquare.com/7d195dddf49fa/grand-theft-auto-v-ps4-2.large.jpg',
-    'https://images.pushsquare.com/b5ef5c5b68f46/grand-theft-auto-v-ps4-3.large.jpg',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3240220/d61184a98c1cf2db2b08b2999c04b0519e3615bb/ss_d61184a98c1cf2db2b08b2999c04b0519e3615bb.600x338.jpg?t=1753974947',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3240220/6959cc5d64cce82cb68a27457cfa46fb4d50f897/ss_6959cc5d64cce82cb68a27457cfa46fb4d50f897.600x338.jpg?t=1753974947',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3240220/0231bf16835cd4f6d83523d76aa8d91cb2dfef9b/ss_0231bf16835cd4f6d83523d76aa8d91cb2dfef9b.600x338.jpg?t=1753974947'
   ],
   youtubeQuery: 'GTA 5 PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-gta-sa-def',
   platform: 'PS4',
@@ -701,8 +687,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'GTA San Andreas Definitive Edition PS4 gameplay',
   gameplayYoutubeUrl: 'https://youtu.be/XwszQDYF_pY?si=3VZWUpy7pD94Vnm9',
-}
-,
+},
 {
   id: 'ps4-gta-vicecity-def',
   platform: 'PS4',
@@ -721,8 +706,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'GTA Vice City Definitive Edition PS4 gameplay',
   gameplayYoutubeUrl: 'https://youtu.be/NlZJph5HI5I?si=10CDwgMb6o56bSMl',
-}
-,
+},
 {
   id: 'ps4-harvestmoon-moonlight',
   platform: 'PS4',
@@ -735,14 +719,13 @@ export const ps4Games: Game[] = [
   price: computePrice('Harvest Moon Moonlight of Hope Full DLC', 1.3),
   cover: 'https://1.bp.blogspot.com/-ZFcKWbC76YU/X4KdvmD5hZI/AAAAAAAAG_U/Z1gPZgAYePgCZmScG2A51YeL9Ajf5EKJgCLcBGAsYHQ/s0/1.jpg',
   screenshots: [
-    'https://i.ytimg.com/vi/r1n0XEt3URM/maxresdefault.jpg',
-    'https://i.ytimg.com/vi/HLtadZhtPzQ/maxresdefault.jpg',
-    'https://i.ytimg.com/vi/nOfFmCwmpOY/maxresdefault.jpg',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/585900/ss_b90276cd2384216066dd7ae49728686faefc6a17.600x338.jpg?t=1670001474',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/585900/ss_485d72c476ab05f820cd5753ca76815540d3a782.600x338.jpg?t=1670001474',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/585900/ss_c1df0410f56a6475e8c34e15df0e97466260bc0c.600x338.jpg?t=1670001474'
   ],
   youtubeQuery: 'Harvest Moon Light of Hope PS4 gameplay',
   gameplayYoutubeUrl: 'https://youtu.be/xMmfRRp8oP0?si=88hJJx1AGOWs16xX',
-}
-,
+},
 {
   id: 'ps4-horizon-fw',
   platform: 'PS4',
@@ -755,14 +738,13 @@ export const ps4Games: Game[] = [
   price: computePrice('Horizon forbidden west  Full DLC', 90.0),
   cover: 'https://1.bp.blogspot.com/-A9Wr0qceibg/YtQiYGnXJAI/AAAAAAAAKJk/PWFowbNh-vci4pokP_c2ozqBiOy4up2AwCNcBGAsYHQ/s0/1.jpg',
   screenshots: [
-    'https://images.pushsquare.com/356e3f1439b67/horizon-forbidden-west-ps5-ps4-1.large.jpg',
-    'https://images.pushsquare.com/623a3b33b4299/horizon-forbidden-west-ps5-ps4-2.large.jpg',
-    'https://images.pushsquare.com/fbe91d00a2e84/horizon-forbidden-west-ps5-ps4-3.large.jpg',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2420110/ss_7c1ead4b3d952fd0fb92735397945bd8732bba53.600x338.jpg?t=1750953213',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2420110/ss_2d05273cef37bcc3651dc9dbea42dbeca5f5f196.600x338.jpg?t=1750953213',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2420110/ss_a4a19b86e80488f3d608e835e5ae3086760db866.600x338.jpg?t=1750953213'
   ],
   youtubeQuery: 'Horizon Forbidden West PS4 gameplay',
   gameplayYoutubeUrl: 'https://youtu.be/psz2ubjDJ1o?si=Jo4V-245WJpJEWCz',
-}
-,
+},
 {
   id: 'ps4-hogwarts-legacy',
   platform: 'PS4',
@@ -775,14 +757,13 @@ export const ps4Games: Game[] = [
   price: computePrice('Hogwarts Legacy', 79.0),
   cover: 'https://1.bp.blogspot.com/-pCfNdGFU7Eo/ZFw5T0qwboI/AAAAAAAABkE/Qhqw-4uIxTQJqQxIC4InILxAP_5MzIaFQCNcBGAsYHQ/s0/1.jpg',
   screenshots: [
-    'https://images.pushsquare.com/6a8c77d7a7d55/hogwarts-legacy-ps5-ps4-1.large.jpg',
-    'https://images.pushsquare.com/d219eb86e0143/hogwarts-legacy-ps5-ps4-2.large.jpg',
-    'https://images.pushsquare.com/cc4bb63f2e431/hogwarts-legacy-ps5-ps4-3.large.jpg',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/990080/ss_725bf58485beb4aa37a3a69c1e2baa69bf3e4653.600x338.jpg?t=1753912780',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/990080/ss_df93b5e8a183f7232d68be94ae78920a90de1443.600x338.jpg?t=1753912780',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/990080/ss_94058497bf0f8fabdde17ee8d59bece609a60663.600x338.jpg?t=1753912780'
   ],
   youtubeQuery: 'Hogwarts Legacy PS4 gameplay',
   gameplayYoutubeUrl: 'https://youtu.be/psz2ubjDJ1o?si=Jo4V-245WJpJEWCz',
-}
-,
+},
 {
   id: 'ps4-hotwheels1',
   platform: 'PS4',
@@ -795,14 +776,13 @@ export const ps4Games: Game[] = [
   price: computePrice('HOT.WHEELS.UNLEASHED Full DLC', 24.0),
   cover: 'https://1.bp.blogspot.com/-MnY5MrxzTPo/YcDLVdCpYFI/AAAAAAAAMZM/Rt2ZzfLU5bQS8Xx68ECwjhPL7iPTajESQCNcBGAsYHQ/h300/8.jpg',
   screenshots: [
-    'https://images.pushsquare.com/6fbb79f0d5f7e/hot-wheels-unleashed-ps5-ps4-1.large.jpg',
-    'https://images.pushsquare.com/59c32e62876a1/hot-wheels-unleashed-ps5-ps4-2.large.jpg',
-    'https://images.pushsquare.com/fc31f8e4db08a/hot-wheels-unleashed-ps5-ps4-3.large.jpg',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1271700/ss_c403a12300c4d197803525ca1aca96b30654f8c6.600x338.jpg?t=1725035139',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1271700/ss_a427be278a71718e68a93b32057b41e6e1f333b8.600x338.jpg?t=1725035139',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1271700/ss_9cae5b5638ccaec588de71f549ba1a87a1c91f54.600x338.jpg?t=1725035139'
   ],
   youtubeQuery: 'Hot Wheels Unleashed PS4 gameplay',
   gameplayYoutubeUrl: 'https://youtu.be/SfxXBxey8Bk?si=Uzvr0vdypXzKiGlk',
-}
-,
+},
 {
   id: 'ps4-hotwheels2',
   platform: 'PS4',
@@ -815,14 +795,13 @@ export const ps4Games: Game[] = [
   price: computePrice('HOT.WHEELS.UNLEASHED 2 Full DLC', 28.0),
   cover: 'https://1.bp.blogspot.com/-g9Jqw1-S9_I/ZXrucu5SUvI/AAAAAAAADzc/01OBo6ZJOmgyb2T_OInIQAi8DbjMdgCHQCNcBGAsYHQ/s0/1.jpg',
   screenshots: [
-    'https://images.pushsquare.com/40e8b0da26c68/hot-wheels-unleashed-2-ps5-ps4-1.large.jpg',
-    'https://images.pushsquare.com/d7c97e6d8b5b0/hot-wheels-unleashed-2-ps5-ps4-2.large.jpg',
-    'https://images.pushsquare.com/6b5b4bde86a22/hot-wheels-unleashed-2-ps5-ps4-3.large.jpg',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2051120/ss_8bcbd07e97af5cd2d700aa82299484f200e41e93.600x338.jpg?t=1747235742',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2051120/ss_e8d032ee7d2123bd93bc47ea212e93bfae1536af.600x338.jpg?t=1747235742',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2051120/ss_93ee2538b683c3d80de05aaa5247cbaa551b52f0.600x338.jpg?t=1747235742'
   ],
   youtubeQuery: 'Hot Wheels Unleashed 2 PS4 gameplay',
   gameplayYoutubeUrl: 'https://youtu.be/qryt2HD-juw?si=cCCDxJjO4xMQ92gl',
-}
-,
+},
 {
   id: 'ps4-it-takes-two',
   platform: 'PS4',
@@ -835,14 +814,13 @@ export const ps4Games: Game[] = [
   price: computePrice('It Takes Two', 42.0),
   cover: 'https://1.bp.blogspot.com/-NnXVxl9RFXA/YbvqeoqYGqI/AAAAAAAAMLs/A6MbjvKr7F0Myd5wW5oClwWDL2ricWe0gCNcBGAsYHQ/h300/2.jpg',
   screenshots: [
-    'https://images.pushsquare.com/6d58c8a193d5e/it-takes-two-ps5-ps4-1.large.jpg',
-    'https://images.pushsquare.com/cdb9243f7b15f/it-takes-two-ps5-ps4-2.large.jpg',
-    'https://images.pushsquare.com/7c327c9aa6a55/it-takes-two-ps5-ps4-3.large.jpg',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1426210/ss_3e59753eefaba9a7704a18e902b48e8d38e95e0b.600x338.jpg?t=1749142249',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1426210/ss_fdac523e3ea4d2f32a44449bb8c224857563bd7d.600x338.jpg?t=1749142249',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1426210/ss_4a62bc8fa398fc5b2094a6225dc5ecff9485f824.600x338.jpg?t=1749142249'
   ],
   youtubeQuery: 'It Takes Two PS4 gameplay',
   gameplayYoutubeUrl: 'https://youtu.be/TtsDf3cBics?si=wpGJK6NXVA_YmB72',
-}
-,
+},
 {
   id: 'ps4-injustice2',
   platform: 'PS4',
@@ -861,8 +839,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Injustice 2 PS4 gameplay',
   gameplayYoutubeUrl: 'https://youtu.be/ogxbN3U335Y?si=DeDCFkguOYVeOIi3',
-}
-,
+},
 {
   id: 'ps4-jumpforce',
   platform: 'PS4',
@@ -881,8 +858,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Jump Force PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-kena',
   platform: 'PS4',
@@ -901,8 +877,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Kena Bridge of Spirits PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-kh3',
   platform: 'PS4',
@@ -921,8 +896,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Kingdom Hearts 3 PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-layersfear2',
   platform: 'PS4',
@@ -941,8 +915,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Layers of Fear 2 PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-legostarwars-skywalker',
   platform: 'PS4',
@@ -961,8 +934,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'LEGO Star Wars The Skywalker Saga PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-ishin',
   platform: 'PS4',
@@ -981,8 +953,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Like a Dragon Ishin PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-mafia-definitive',
   platform: 'PS4',
@@ -1001,8 +972,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Mafia Definitive Edition PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-spiderman',
   platform: 'PS4',
@@ -1021,8 +991,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Marvel Spiderman PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-spiderman-mm',
   platform: 'PS4',
@@ -1041,8 +1010,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Marvel Spiderman Miles Morales PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-metro-exodus',
   platform: 'PS4',
@@ -1061,14 +1029,13 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Metro Exodus PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-minecraft',
   platform: 'PS4',
   name: 'MINECRAFT PlayStation4 Edition Full DLC',
   description: 'Versi PS4 dari sandbox legendaris Minecraft dengan DLC tambahan.',
-  size: '≈2.5 GB (base, tanpa update)',
+  size: '≈2.5 GB',
   build: '—',
   year: 2014,
   players: '1-4',
@@ -1081,8 +1048,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Minecraft PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-mk11',
   platform: 'PS4',
@@ -1101,8 +1067,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Mortal Kombat 11 PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-motogp25',
   platform: 'PS4',
@@ -1121,8 +1086,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'MotoGP 25 PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-naruto-storm4',
   platform: 'PS4',
@@ -1141,8 +1105,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Naruto Ultimate Ninja Storm 4 Road to Boruto PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-naruto-x-boruto',
   platform: 'PS4',
@@ -1161,8 +1124,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Naruto X Boruto Storm Connections PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-nfs-payback',
   platform: 'PS4',
@@ -1181,8 +1143,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Need For Speed Payback PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-nfs-heat',
   platform: 'PS4',
@@ -1201,8 +1162,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Need For Speed Heat PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-nba2k25',
   platform: 'PS4',
@@ -1221,8 +1181,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'NBA 2K25 PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-ni-no-kuni2',
   platform: 'PS4',
@@ -1241,8 +1200,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Ni No Kuni 2 PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-onepiece-pw4',
   platform: 'PS4',
@@ -1261,8 +1219,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'One Piece Pirate Warrior 4 PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-overcooked-ayce',
   platform: 'PS4',
@@ -1281,8 +1238,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Overcooked All You Can Eat PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-overcooked2',
   platform: 'PS4',
@@ -1301,8 +1257,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Overcooked 2 PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-persona5-royal',
   platform: 'PS4',
@@ -1321,8 +1276,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Persona 5 Royal PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-pop-lostcrown',
   platform: 'PS4',
@@ -1341,8 +1295,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Prince of Persia The Lost Crown PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-rdr2',
   platform: 'PS4',
@@ -1361,8 +1314,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Red Dead Redemption 2 PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-re2-remake',
   platform: 'PS4',
@@ -1381,8 +1333,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Resident Evil 2 Remake PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-re3-remake',
   platform: 'PS4',
@@ -1401,8 +1352,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Resident Evil 3 Remake PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-re4-remake',
   platform: 'PS4',
@@ -1421,8 +1371,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Resident Evil 4 Remake PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-re7',
   platform: 'PS4',
@@ -1441,8 +1390,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Resident Evil 7 PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-sackboy',
   platform: 'PS4',
@@ -1461,8 +1409,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Sackboy A Big Adventure PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-sleepingdogs',
   platform: 'PS4',
@@ -1481,8 +1428,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Sleeping Dogs PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-sniperelite5',
   platform: 'PS4',
@@ -1501,8 +1447,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Sniper Elite 5 PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-sonic-frontiers',
   platform: 'PS4',
@@ -1521,8 +1466,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Sonic Frontiers PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-spongebob-cosmicshake',
   platform: 'PS4',
@@ -1541,8 +1485,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'SpongeBob The Cosmic Shake PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-starwars-fallenorder',
   platform: 'PS4',
@@ -1561,8 +1504,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Star Wars Jedi Fallen Order PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-streetfighter6',
   platform: 'PS4',
@@ -1581,8 +1523,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Street Fighter 6 PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-swordandfairy',
   platform: 'PS4',
@@ -1601,8 +1542,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Sword and Fairy Together Forever PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-talesofarise',
   platform: 'PS4',
@@ -1621,12 +1561,11 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Tales of Arise PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-teamsonicracing',
   platform: 'PS4',
-  name: 'Team Sonic Racing',
+  name: '/Team Sonic Racing',
   description: 'Game balap tim berbasis karakter Sonic, fokus pada kerja sama dalam balapan.',
   size: '≈17 GB',
   build: '—',
@@ -1641,8 +1580,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Team Sonic Racing PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-tekken7',
   platform: 'PS4',
@@ -1661,8 +1599,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Tekken 7 PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-callisto',
   platform: 'PS4',
@@ -1681,8 +1618,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'The Callisto Protocol PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-evilwithin2',
   platform: 'PS4',
@@ -1701,8 +1637,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'The Evil Within 2 PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-tlou2',
   platform: 'PS4',
@@ -1721,12 +1656,11 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'The Last of Us Part II PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-laststand',
   platform: 'PS4',
-  name: 'The Last Stand Aftermath',
+  name: '/The Last Stand Aftermath',
   description: 'Action roguelike survival zombie dengan elemen eksplorasi dan crafting.',
   size: '≈6 GB',
   build: '—',
@@ -1741,8 +1675,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'The Last Stand Aftermath PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-sims4',
   platform: 'PS4',
@@ -1761,12 +1694,11 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'The Sims 4 PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-wildatheart',
   platform: 'PS4',
-  name: 'The Wild at Heart',
+  name: '/The Wild at Heart',
   description: 'Petualangan indie dengan mekanik mirip Pikmin, menjelajahi hutan misterius dengan makhluk kecil.',
   size: '≈2.7 GB',
   build: '—',
@@ -1781,8 +1713,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'The Wild at Heart PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-witcher3',
   platform: 'PS4',
@@ -1801,12 +1732,11 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'The Witcher 3 PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-tonyhawks12',
   platform: 'PS4',
-  name: 'Tony Hawks Pro Skater 1 + 2',
+  name: '/Tony Hawks Pro Skater 1 + 2',
   description: 'Remaster modern dari Tony Hawk’s Pro Skater 1 & 2 dengan grafis HD dan roster baru.',
   size: '≈24 GB',
   build: '—',
@@ -1821,8 +1751,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Tony Hawks Pro Skater 1+2 PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-transformers-bg',
   platform: 'PS4',
@@ -1841,12 +1770,11 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Transformers Battlegrounds PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-trainsimworld2',
   platform: 'PS4',
-  name: 'Train Sim World Z',
+  name: '/Train Sim World Z',
   description: 'Simulator kereta realistis dengan jalur resmi dan lokomotif detail.',
   size: '≈50 GB',
   build: '—',
@@ -1861,12 +1789,11 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Train Sim World 2 PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-trialsofmana',
   platform: 'PS4',
-  name: 'Trials of Mana',
+  name: '/Trials of Mana',
   description: 'Remake action RPG klasik Seiken Densetsu 3 dengan grafis 3D penuh.',
   size: '≈21 GB',
   build: '—',
@@ -1881,12 +1808,11 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Trials of Mana PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-ty-tasmanian',
   platform: 'PS4',
-  name: 'TY the Tasmanian Tiger',
+  name: '/TY the Tasmanian Tiger',
   description: 'Platformer klasik Australia HD remaster dengan bumerang sebagai senjata utama.',
   size: '≈6 GB',
   build: 'HD Remaster',
@@ -1901,8 +1827,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'TY the Tasmanian Tiger PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-ufc3',
   platform: 'PS4',
@@ -1921,8 +1846,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'UFC 3 PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-ufc4',
   platform: 'PS4',
@@ -1941,8 +1865,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'UFC 4 PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-uncharted4',
   platform: 'PS4',
@@ -1961,8 +1884,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: "Uncharted 4 A Thief's End PS4 gameplay",
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-uncharted-lostlegacy',
   platform: 'PS4',
@@ -1981,8 +1903,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Uncharted The Lost Legacy PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-watchdogs2',
   platform: 'PS4',
@@ -2001,12 +1922,11 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Watch Dogs 2 PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-wizardoflegend',
   platform: 'PS4',
-  name: 'Wizard Of Legend',
+  name: '/Wizard Of Legend',
   description: 'Roguelike aksi cepat dengan sihir elemen dan dungeon yang dihasilkan secara acak.',
   size: '≈0.5 GB',
   build: '—',
@@ -2021,8 +1941,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'Wizard of Legend PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-wrc-generations',
   platform: 'PS4',
@@ -2041,8 +1960,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'WRC Generations PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-wwe2k25',
   platform: 'PS4',
@@ -2061,8 +1979,7 @@ export const ps4Games: Game[] = [
   ],
   youtubeQuery: 'WWE 2K24 PS4 gameplay',
   gameplayYoutubeUrl: '',
-}
-,
+},
 {
   id: 'ps4-yakuza-likeadragon',
   platform: 'PS4',
@@ -2082,7 +1999,6 @@ export const ps4Games: Game[] = [
   youtubeQuery: 'Yakuza Like a Dragon PS4 gameplay',
   gameplayYoutubeUrl: '',
 },
-
 {
   id: 'ps4-cars3',
   platform: 'PS4',
@@ -2093,7 +2009,7 @@ export const ps4Games: Game[] = [
   year: 2017,
   players: '1-2',
   price: computePrice('CARS 3: Driven to Win', 5.3),
-  cover: '',
+  cover: 'https://1.bp.blogspot.com/-xUPZ8FkF4GU/WqajOQmtpKI/AAAAAAAACc8/Z2B7SKDWi_k3VaVs6YBU2Xet_TtG-lkqQCLcBGAs/s1600/39.jpg',
   screenshots: [],
   youtubeQuery: 'Cars 3 Driven to Win PS4 gameplay',
   gameplayYoutubeUrl: '',
@@ -2108,8 +2024,12 @@ export const ps4Games: Game[] = [
   year: 2020,
   players: '1-4',
   price: computePrice('Captain Tsubasa: Rise of New Champions', 23.5),
-  cover: '',
-  screenshots: [],
+  cover: 'https://1.bp.blogspot.com/-34VJtbiSFu0/ZkRDBB7zefI/AAAAAAAAABI/D-cqBF0RP5EgsqnDw3oi6fDTlqkVtaXpQCNcBGAsYHQ/s0/23.jpg',
+  screenshots: [
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1163550/ss_626fb9f532f2e28ceca28a3b9b2793a17a912f95.600x338.jpg?t=1718965999',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1163550/ss_3dfbe997d19b88ed691b5d5afff5afcda25d7700.600x338.jpg?t=1718965999',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1163550/ss_b134ef95b98f9de03bb3c52bbc33abbd2542078a.600x338.jpg?t=1718965999'
+  ],
   youtubeQuery: 'Captain Tsubasa Rise of New Champions PS4 gameplay',
   gameplayYoutubeUrl: '',
 },
@@ -2123,10 +2043,13 @@ export const ps4Games: Game[] = [
   year: 2023,
   players: '1-2',
   price: computePrice('Call of Duty: Modern Warfare III (2023)', 115.0),
-  cover: '',
-  screenshots: [],
+  cover: 'https://1.bp.blogspot.com/-ni_bHbmB-kU/ZVwOk1aKRXI/AAAAAAAADqc/VvYO6hsvlSkjM3iAs36pUbNfLXqeJxY7wCNcBGAsYHQ/s0/1.jpg',
+  screenshots: [
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3595270/8694e5cb8262343c867d8f8edb70526b19b49cf8/ss_8694e5cb8262343c867d8f8edb70526b19b49cf8.600x338.jpg?t=1753807704',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3595270/757e49ee3ff2b6ebf60e479731d983cec47faa41/ss_757e49ee3ff2b6ebf60e479731d983cec47faa41.600x338.jpg?t=1753807704',
+    'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3595270/e23921966033db7075d68e33e233120756357093/ss_e23921966033db7075d68e33e233120756357093.600x338.jpg?t=1753807704'
+  ],
   youtubeQuery: 'Call of Duty Modern Warfare 3 2023 PS4 gameplay',
   gameplayYoutubeUrl: '',
-},
-
+}
 ]

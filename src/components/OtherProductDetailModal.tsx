@@ -2,11 +2,11 @@ import React, { useMemo, useState, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { X } from "lucide-react";
 import { Product } from "../types";
+import { isUnavailable, displayName } from "../utils/inventory";
 
 /**
  * Modal detail produk dengan dukungan hingga 3 screenshot tambahan.
- * Perbaikan: gunakan index (bukan URL) untuk memilih gambar & HILANGKAN dedup,
- * sehingga 3 thumbnail tetap muncul meskipun URL-nya sama persis.
+ * Integrasi stok: nama diawali "/" => dianggap habis.
  */
 export default function OtherProductDetailModal({
   open,
@@ -23,10 +23,13 @@ export default function OtherProductDetailModal({
 }) {
   const fallback = "https://picsum.photos/seed/default/800/800";
 
+  const unavailable = !!product && isUnavailable(product.name);
+  const shownName = product ? displayName(product.name) : "";
+
   // Ambil maksimal 3 screenshot
   const screenshots = useMemo(() => (product?.images ?? []).slice(0, 3), [product]);
 
-  // Daftar thumbnail: cover + screenshot (TANPA dedup), agar tetap muncul meskipun URL sama
+  // Daftar thumbnail: cover + screenshot (TANPA dedup)
   const thumbs = useMemo(() => {
     const list: string[] = [];
     if (product?.cover) list.push(product.cover);
@@ -65,7 +68,7 @@ export default function OtherProductDetailModal({
             {/* Header */}
             <div className="flex items-center justify-between px-4 py-3 border-b">
               <h3 id="product-title" className="text-base md:text-lg font-extrabold line-clamp-2">
-                {product.name}
+                {shownName}
               </h3>
               <button
                 onClick={onClose}
@@ -81,8 +84,8 @@ export default function OtherProductDetailModal({
               <div className="aspect-square w-full overflow-hidden">
                 <img
                   src={mainSrc || fallback}
-                  alt={`${product.name} - pratinjau`}
-                  className="w-full h-full object-cover"
+                  alt={`${shownName} - pratinjau`}
+                  className={`w-full h-full object-cover ${unavailable ? "opacity-60" : ""}`}
                   loading="lazy"
                   onError={(e) => {
                     (e.currentTarget as HTMLImageElement).src = fallback;
@@ -105,7 +108,7 @@ export default function OtherProductDetailModal({
                       >
                         <img
                           src={src}
-                          alt={`${product.name} - gambar ${i + 1}`}
+                          alt={`${shownName} - gambar ${i + 1}`}
                           className="w-full h-full object-cover"
                           loading="lazy"
                           onError={(e) => {
@@ -136,10 +139,17 @@ export default function OtherProductDetailModal({
               {onAdd && (
                 <div className="pt-2">
                   <button
-                    onClick={() => onAdd(product)}
-                    className="w-full rounded-xl bg-gray-900 text-white px-4 py-3 text-sm font-semibold hover:bg-gray-800 active:scale-[.98]"
+                    onClick={() => {
+                      if (!unavailable) onAdd(product);
+                    }}
+                    disabled={unavailable}
+                    className={`w-full rounded-xl px-4 py-3 text-sm font-semibold transition
+                      ${unavailable
+                        ? "bg-gray-300 text-gray-600 cursor-not-allowed"
+                        : "bg-gray-900 text-white hover:bg-gray-800 active:scale-[.98]"}
+                    `}
                   >
-                    Tambah ke keranjang
+                    {unavailable ? "Stok kosong" : "Tambah ke keranjang"}
                   </button>
                 </div>
               )}

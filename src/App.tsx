@@ -14,11 +14,15 @@ import { ps4Games } from './data/ps4';
 import { otherProducts } from './data/products';
 import jsPDF from 'jspdf';
 import 'jspdf-autotable';
+import LatestGamesRow from './components/LatestGamesRow';
 
 // tambahan
 import FloatingActions from './components/FloatingActions';
 import AnnouncementModal from './components/AnnouncementModal';
 import OtherProductDetailModal from './components/OtherProductDetailModal';
+
+// utils inventory
+import { isUnavailable, displayName, alphaCompareIgnoringSlash } from './utils/inventory';
 
 const WHATSAPP_NUMBER = '6285709647790';
 const STORE = {
@@ -60,12 +64,13 @@ export default function App() {
   }, [cart]);
 
   const q = query.trim().toLowerCase();
-  const match = (s: string) => s.toLowerCase().includes(q);
+  const match = (s: string) => displayName(s).toLowerCase().includes(q);
 
   const displayedGames = useMemo(() => {
     const filtered = games
       .filter((g) => g.platform === activeTab)
       .filter((g) => !q || match(g.name));
+
     const sorted = [...filtered].sort((a, b) => {
       switch (sortBy) {
         case 'harga-asc':
@@ -77,7 +82,8 @@ export default function App() {
         case 'rilis-old':
           return a.year - b.year;
         default:
-          return a.name.localeCompare(b.name);
+          // abjad: abaikan "/" di depan nama
+          return alphaCompareIgnoringSlash(a.name, b.name);
       }
     });
     return sorted;
@@ -109,30 +115,41 @@ export default function App() {
   }, [cart]);
 
   function addToCart(game: Game) {
+    // tolak jika tidak tersedia
+    if (isUnavailable(game.name)) {
+      showQuickToast('Game Tidak Tersedia ❌');
+      return;
+    }
+    const cleanName = displayName(game.name);
     setCart((prev) => {
       const idx = prev.findIndex((p) => p.id === game.id);
       if (idx >= 0) {
         const copy = [...prev];
-        copy[idx] = { ...copy[idx], qty: copy[idx].qty + 1 };
+        copy[idx] = { ...copy[idx], qty: copy[idx].qty + 1, name: cleanName };
         return copy;
       }
       return [
         ...prev,
-        { id: game.id, name: game.name, platform: game.platform, price: game.price, qty: 1 },
+        { id: game.id, name: cleanName, platform: game.platform, price: game.price, qty: 1 },
       ];
     });
     showQuickToast('Ditambahkan ke keranjang ✅');
   }
 
   function addProductToCart(id: string, name: string, price: number) {
+    if (isUnavailable(name)) {
+      showQuickToast('Stok kosong ❌');
+      return;
+    }
+    const cleanName = displayName(name);
     setCart((prev) => {
       const idx = prev.findIndex((p) => p.id === id);
       if (idx >= 0) {
         const copy = [...prev];
-        copy[idx] = { ...copy[idx], qty: copy[idx].qty + 1 };
+        copy[idx] = { ...copy[idx], qty: copy[idx].qty + 1, name: cleanName };
         return copy;
       }
-      return [...prev, { id, name, platform: 'PRODUK', price, qty: 1 }];
+      return [...prev, { id, name: cleanName, platform: 'PRODUK', price, qty: 1 }];
     });
     showQuickToast('Ditambahkan ke keranjang ✅');
   }
@@ -172,7 +189,18 @@ export default function App() {
                 className="w-full rounded-xl border border-gray-300 bg-white px-3 py-2 text-sm pr-8 focus:outline-none focus:ring-2 focus:ring-gray-300"
                 placeholder={activeTab === 'Produk Lainnya' ? 'Cari produk…' : 'Cari game…'}
               />
-              <svg className="w-4 h-4 absolute right-3 top-1/2 -translate-y-1/2 opacity-60" viewBox="0 0 24 24" fill="none"><path d="M21 21l-4.3-4.3m1.55-4.45a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/></svg>
+              <svg
+                className="w-4 h-4 absolute right-3 top-1/2 -translate-y-1/2 opacity-60"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M21 21l-4.3-4.3m1.55-4.45a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                />
+              </svg>
             </div>
 
             <div className="flex items-center gap-2">
@@ -203,20 +231,34 @@ export default function App() {
             formatIDR={formatIDR}
           />
         ) : (
-<motion.div
-  layout
-  className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5"
->
-  {displayedGames.map((g) => (
-    <GameCard
-      key={g.id}
-      game={g}
-      onAdd={() => addToCart(g)}
-      onOpen={() => setSelected(g)}
-      formatIDR={formatIDR}
-    />
-  ))}
-</motion.div>
+          <>
+            {/* SECTION: Game Terbaru (maks 10, urut tahun terbaru, horizontal scroll) */}
+            {(activeTab === 'PS3' || activeTab === 'PS4') && (
+              <LatestGamesRow
+                games={activeTab === 'PS3' ? ps3Games : ps4Games}
+                platform={activeTab as 'PS3' | 'PS4'}
+                onAdd={(g) => addToCart(g)}
+                onOpen={(g) => setSelected(g)}
+                formatIDR={formatIDR}
+              />
+            )}
+
+            {/* GRID semua game */}
+            <motion.div
+              layout
+              className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5"
+            >
+              {displayedGames.map((g) => (
+                <GameCard
+                  key={g.id}
+                  game={g}
+                  onAdd={() => addToCart(g)}
+                  onOpen={() => setSelected(g)}
+                  formatIDR={formatIDR}
+                />
+              ))}
+            </motion.div>
+          </>
         )}
       </main>
 

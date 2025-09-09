@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { X, PlayCircle, ShoppingCart } from 'lucide-react';
 import { Game } from '../types';
+import { isUnavailable, displayName } from '../utils/inventory';
 
 export default function GameDetailModal({
   game,
@@ -9,13 +10,16 @@ export default function GameDetailModal({
   onAdd,
   formatIDR,
 }: {
-  game: Game & { gameplayYoutubeUrl?: string }; // opsional
+  game: Game & { gameplayYoutubeUrl?: string; youtubeQuery?: string }; // opsional
   onClose: () => void;
   onAdd: () => void;
   formatIDR: (n: number) => string;
 }) {
   const [activeIndex, setActiveIndex] = React.useState<number>(0);
   React.useEffect(() => setActiveIndex(0), [game]);
+
+  const unavailable = isUnavailable(game.name);
+  const shownName = displayName(game.name);
 
   // Ubah berbagai format YouTube ke URL embed
   const toEmbedUrl = (url: string) => {
@@ -39,7 +43,7 @@ export default function GameDetailModal({
   const fallbackQuery =
     game.youtubeQuery && game.youtubeQuery.trim().length > 0
       ? game.youtubeQuery
-      : `${game.name} gameplay`;
+      : `${shownName} gameplay`;
 
   const videoSrc = game.gameplayYoutubeUrl
     ? toEmbedUrl(game.gameplayYoutubeUrl)
@@ -73,17 +77,17 @@ export default function GameDetailModal({
         <div className="relative">
           {slides[activeIndex]?.type === 'video' ? (
             <iframe
-              className="w-full aspect-video"
+              className={`w-full aspect-video ${unavailable ? 'opacity-60' : ''}`}
               src={slides[activeIndex].src}
-              title={`${game.name} gameplay`}
+              title={`${shownName} gameplay`}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
             />
           ) : (
             <img
               src={slides[activeIndex]?.src}
-              alt={game.name}
-              className="w-full aspect-video object-cover"
+              alt={shownName}
+              className={`w-full aspect-video object-cover ${unavailable ? 'opacity-60' : ''}`}
               loading="lazy"
             />
           )}
@@ -124,7 +128,7 @@ export default function GameDetailModal({
         {/* Info game */}
         <div className="p-5 md:p-6">
           <h3 className="text-xl md:text-2xl font-black text-gray-900">
-            {game.name} <span className="text-gray-600">[{game.platform}]</span>
+            {shownName} <span className="text-gray-600">[{game.platform}]</span>
           </h3>
           <div className="mt-1 text-sm text-gray-600">
             Rilis {game.year} • Ukuran {game.size} • Build {game.build} • Player {game.players}
@@ -149,10 +153,23 @@ export default function GameDetailModal({
               <div className="text-2xl font-extrabold">{formatIDR(game.price)}</div>
             </div>
             <button
-              onClick={onAdd}
-              className="inline-flex items-center gap-2 rounded-2xl bg-gray-900 text-white text-sm font-semibold px-4 py-3 hover:bg-gray-800 active:scale-[.98]"
+              onClick={() => {
+                if (!unavailable) onAdd();
+              }}
+              disabled={unavailable}
+              className={`inline-flex items-center gap-2 rounded-2xl text-sm font-semibold px-4 py-3 transition
+                ${unavailable
+                  ? 'bg-gray-300 text-gray-600 cursor-not-allowed'
+                  : 'bg-gray-900 text-white hover:bg-gray-800 active:scale-[.98]'}
+              `}
             >
-              <ShoppingCart className="w-4 h-4" /> Tambahkan ke Keranjang
+              {unavailable ? (
+                <>Game Tidak Tersedia</>
+              ) : (
+                <>
+                  <ShoppingCart className="w-4 h-4" /> Tambahkan ke Keranjang
+                </>
+              )}
             </button>
           </div>
         </div>

@@ -27,7 +27,7 @@ export const otherProducts: (Product & { images?: string[] })[] = [
   },
   {
     id: 'stik-ps3-op',
-    name: 'Stik PS3 OP',
+    name: '/Stik PS3 OP',
     price: 55000,
     cover: 'https://wppals.com/wp-content/uploads/2021/11/2734794-1.jpg',
     images: [
@@ -38,7 +38,7 @@ export const otherProducts: (Product & { images?: string[] })[] = [
   },
   {
     id: 'stik-ps3-om',
-    name: 'Stik PS3 OM',
+    name: '/Stik PS3 OM',
     price: 165000,
     cover: 'https://wppals.com/wp-content/uploads/2021/11/2734794-1.jpg',
     images: [
@@ -49,7 +49,7 @@ export const otherProducts: (Product & { images?: string[] })[] = [
   },
   {
     id: 'stik-ps4-op',
-    name: 'Stik PS4 OP',
+    name: '/Stik PS4 OP',
     price: 135000,
     cover: 'https://wppals.com/wp-content/uploads/2021/11/2734794-1.jpg',
     images: [
@@ -60,7 +60,7 @@ export const otherProducts: (Product & { images?: string[] })[] = [
   },
   {
     id: 'stik-ps4-om',
-    name: 'Stik PS4 OM',
+    name: '/Stik PS4 OM',
     price: 295000,
     cover: 'https://wppals.com/wp-content/uploads/2021/11/2734794-1.jpg',
     images: [
@@ -71,7 +71,7 @@ export const otherProducts: (Product & { images?: string[] })[] = [
   },
   {
     id: 'kabel-ps3-premium-25',
-    name: 'Kabel Charger PS3 Premium',
+    name: '/Kabel Charger PS3 Premium',
     price: 25000,
     cover: 'https://wppals.com/wp-content/uploads/2021/11/2734794-1.jpg',
     images: [
@@ -82,7 +82,7 @@ export const otherProducts: (Product & { images?: string[] })[] = [
   },
   {
     id: 'kabel-ps3-premium-15',
-    name: 'Kabel Charger PS3 Premium',
+    name: '/Kabel Charger PS4 Premium',
     price: 15000,
     cover: 'https://wppals.com/wp-content/uploads/2021/11/2734794-1.jpg',
     images: [
@@ -104,7 +104,7 @@ export const otherProducts: (Product & { images?: string[] })[] = [
   },
   {
     id: 'ps3-slim-250',
-    name: 'PS3 slim 250GB',
+    name: '/PS3 slim 250GB',
     price: 1500000,
     cover: 'https://wppals.com/wp-content/uploads/2021/11/2734794-1.jpg',
     images: [
@@ -115,7 +115,7 @@ export const otherProducts: (Product & { images?: string[] })[] = [
   },
   {
     id: 'ps4-fat-500-hen',
-    name: 'PS4 FAT 500GB HEN',
+    name: '/PS4 FAT 500GB HEN',
     price: 2500000,
     cover: 'https://wppals.com/wp-content/uploads/2021/11/2734794-1.jpg',
     images: [
@@ -126,7 +126,7 @@ export const otherProducts: (Product & { images?: string[] })[] = [
   },
   {
     id: 'ps4-fat-1tb-hen',
-    name: 'PS4 FAT 1TB HEN',
+    name: '/PS4 FAT 1TB HEN',
     price: 3000000,
     cover: 'https://wppals.com/wp-content/uploads/2021/11/2734794-1.jpg',
     images: [
@@ -137,7 +137,7 @@ export const otherProducts: (Product & { images?: string[] })[] = [
   },
   {
     id: 'ps4-slim-500-hen',
-    name: 'PS4 SLIM 500GB HEN',
+    name: '/PS4 SLIM 500GB HEN',
     price: 3300000,
     cover: 'https://wppals.com/wp-content/uploads/2021/11/2734794-1.jpg',
     images: [
@@ -148,7 +148,7 @@ export const otherProducts: (Product & { images?: string[] })[] = [
   },
   {
     id: 'ps4-slim-1tb-hen',
-    name: 'PS4 SLIM 1TB HEN',
+    name: '/PS4 SLIM 1TB HEN',
     price: 3800000,
     cover: 'https://wppals.com/wp-content/uploads/2021/11/2734794-1.jpg',
     images: [
@@ -159,7 +159,7 @@ export const otherProducts: (Product & { images?: string[] })[] = [
   },
   {
     id: 'ps4-pro-1tb-45',
-    name: 'PS4 PRO 1TB HEN',
+    name: '/PS4 PRO 1TB HEN',
     price: 4500000,
     cover: 'https://wppals.com/wp-content/uploads/2021/11/2734794-1.jpg',
     images: [
@@ -170,7 +170,7 @@ export const otherProducts: (Product & { images?: string[] })[] = [
   },
   {
     id: 'ps4-pro-1tb-55',
-    name: 'PS4 PRO 1TB HEN',
+    name: '/PS4 PRO 1TB HEN',
     price: 5500000,
     cover: 'https://wppals.com/wp-content/uploads/2021/11/2734794-1.jpg',
     images: [
